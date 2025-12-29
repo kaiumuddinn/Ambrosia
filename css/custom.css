@@ -5482,6 +5482,7 @@ backdrop-filter: blur(8.3px);
 
 	.footer-logo img{
 		max-width: 160px;
+		filter: invert(1);
 	}
 
 	.footer-copyright{
