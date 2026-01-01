@@ -32,6 +32,8 @@
 	<link rel="stylesheet" href="css/magnific-popup.css">
 	<!-- Mouse Cursor Css File -->
 	<link rel="stylesheet" href="css/mousecursor.css">
+    <!-- Fancybox Css File -->
+    <link rel="stylesheet" href="./css/fancybox.css">
 	<!-- Main Custom Css -->
 	<link href="css/custom.css" rel="stylesheet" media="screen">
 </head>
@@ -63,8 +65,18 @@
                             <ul class="navbar-nav mr-auto" id="menu">
                                 <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                                 <li class="nav-item"><a class="nav-link" href="about.html">About Us</a>
-                                <li class="nav-item"><a class="nav-link" href="menu.html">menu</a></li>
-                                <li class="nav-item"><a class="nav-link" href="blog.html">blog</a></li>
+                                <li class="nav-item submenu"><a class="nav-link" href="menu.html">menu</a>
+                                    <ul>
+                                        <li class="nav-item"><a class="nav-link" href="#">Thai cuisine</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#">chinese cuisine</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#">indian cuisine</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#">continental cuisine</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#">dessert, drinks, take away</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#">special party menu</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#">tabbaco</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item"><a class="nav-link" href="gallery.html">gallery</a></li>
                                 <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>                           
                             </ul>
                         </div>
@@ -1547,7 +1559,7 @@
     <!-- Our Testimonial Section End -->
 
     <!-- Our Blog Section Start -->
-    <div class="our-blog">
+    <div class="our-blog" style="display: none;">
         <div class="container">
             <div class="row section-row">
                 <div class="col-lg-12">
@@ -1832,6 +1844,8 @@
     <script src="js/jquery.mb.YTPlayer.min.js"></script>
     <!-- Wow js file -->
     <script src="js/wow.min.js"></script>
+    <!-- Fancybos js File -->
+    <script src="js/fancybox.umd.js"></script>
     <!-- Main Custom js file -->
     <script src="js/function.js"></script>
 </body>

@@ -1546,7 +1546,7 @@ backdrop-filter: blur(8.3px);
 	position: relative;
 	display: flex;
 	flex-wrap: wrap;
-	gap: 60px;
+	/* gap: 60px; */
 	z-index: 2;
 }
 
@@ -1575,7 +1575,7 @@ backdrop-filter: blur(8.3px);
 }
 
 .menu-item-body{
-	width: calc(100% - 130px);
+	/* width: calc(100% - 130px); */
 }
 
 .menu-item-title{
@@ -3303,7 +3303,7 @@ backdrop-filter: blur(8.3px);
 }
 
 .food-menu-item .menu-item-body{
-    width: calc(100% - 115px);
+    /* width: calc(100% - 115px); */
 }
 
 .food-menu-item .our-menu-item .menu-item-title hr{
@@ -4456,7 +4456,7 @@ backdrop-filter: blur(8.3px);
 	}
 
 	.menu-item-body{
-		width: calc(100% - 100px);
+		/* width: calc(100% - 100px); */
 	}
 
 	.menu-item-title{
@@ -4897,7 +4897,7 @@ backdrop-filter: blur(8.3px);
 	}
 
 	.food-menu-item .menu-item-body{
-		width: calc(100% - 95px);
+		/* width: calc(100% - 95px); */
 	}
 	
 	.food-menu-item .our-menu-item .menu-item-title hr{
@@ -5314,7 +5314,7 @@ backdrop-filter: blur(8.3px);
 	}
 
 	.menu-item-body{
-		width: calc(100% - 80px);
+		/* width: calc(100% - 80px); */
 	}
 
 	.our-menu-image{
@@ -5684,7 +5684,7 @@ backdrop-filter: blur(8.3px);
 	}
 
 	.food-menu-item .menu-item-body{
-        width: calc(100% - 80px);
+        /* width: calc(100% - 80px); */
     }
 
 	.food-menu-item .our-menu-item .menu-item-title hr{
