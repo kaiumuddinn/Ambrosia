@@ -467,11 +467,10 @@ header.main-header .header-sticky.active{
 	padding: 30px 0;
 	align-items: center;
 	background-color: red;
-	/* From https://css.glass */
-background: rgba(255, 255, 255, 0.2);
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(8.3px);
--webkit-backdrop-filter: blur(8.3px);
+	background: rgba(255, 255, 255, 0.85);
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(8.3px);
+	-webkit-backdrop-filter: blur(8.3px);
 
 }
 
@@ -501,7 +500,7 @@ backdrop-filter: blur(8.3px);
 	font-weight: 400;
 	line-height: 1.3em;
 	padding: 12px 20px !important;
-	color: var(--primary-color);
+	color: var(--secondary-color);
 	text-transform: capitalize;
 	transition: all 0.3s ease-in-out;
 }
@@ -2326,7 +2325,6 @@ backdrop-filter: blur(8.3px);
 
 .footer-logo img{
 	max-width: 197px;
-	filter: invert(1);
 }
 
 .footer-contact-item{
